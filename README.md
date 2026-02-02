@@ -158,4 +158,6 @@ If you use this code or dataset in your research, please cite our paper:
 
 For questions regarding the code or dataset, please contact:
 
-Zhihan Yan, MD: yanzhihanwz@163.com 
+Zhihan Yan, yanzhihanwz@163.com 
+
+Dinggang Shen, dgshen@shanghaitech.edu.cn
