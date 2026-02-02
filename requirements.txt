@@ -1,0 +1,17 @@
+# This file lists the Python dependencies required to run the cascaded multi-task model for carotid ultrasound.
+# Install with: pip install -r requirements.txt
+# Core dependencies for PyTorch, data handling, and metrics.
+# Adjust torch/torchvision versions based on your CUDA setup (e.g., for CUDA 12.1: pip install torch torchvision --index-url https://download.pytorch.org/whl/cu121).
+# All versions are suggestions for stability; test in your environment.
+
+torch
+numpy
+pandas
+scikit-learn
+decord
+opencv-python
+torchvision
+transformers
+tqdm
+matplotlib
+Pillow
