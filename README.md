@@ -2,17 +2,22 @@ AI-driven Pulmonary Hypertension Screening and Severity Grading using Multimodal
 This repository contains the official PyTorch implementation of the paper: "AI-driven Pulmonary Hypertension Screening and Severity Grading using Multimodal Echocardiography".
 
 📋Abstract
+
 Pulmonary hypertension (PH) is a life-threatening condition where early detection is crucial but challenging. Conventional echocardiography (specifically Tricuspid Regurgitation Velocity, TRV) often shows suboptimal accuracy and high rates of missing data .
+
 We present a multimodal AI framework that integrates:
 
 Echocardiographic Videos: Spatio-temporal analysis using 3D-ResNet.
+
 Clinical Data: Patient demographics, medical history, and biomarkers processed via MLP.
+
 Vision-Language Pretraining (CLIP): Utilizes diagnostic reports during training to align visual features with semantic medical knowledge .
 
 ⚙️Project Structure
+
 The code is organized into modular components for training, data handling, and evaluation.
 Plaintext
-.
+
 ├── data/
 
 │   ├── __init__.py
@@ -22,15 +27,25 @@ Plaintext
 ├── models/
 
 │   ├── __init__.py
+
 │   ├── clip_module.py      # 3D-ResNet Video Encoder, BERT Text Encoder, Fusion MLP
+
 │   └── loss.py             # Combined Contrastive (CLIP) + CrossEntropy Loss
+
 ├── utils/
+
 │   ├── __init__.py
+
 │   ├── tools.py            # Seeding and reproducibility tools
+
 │   └── visualization.py    # Metric plotting (ROC, Confusion Matrix, T-SNE, GradCAM)
+
 ├── train.py                # Main training and validation loop
+
 ├── main.py                 # Entry point with argument parsing
+
 ├── requirements.txt        # Python dependencies
+
 └── README.md
 
 
