@@ -14,9 +14,13 @@ The code is organized into modular components for training, data handling, and e
 Plaintext
 .
 ├── data/
+
 │   ├── __init__.py
+
 │   └── dataset.py          # Custom VideoDataset, preprocessing, and collate_fn
+
 ├── models/
+
 │   ├── __init__.py
 │   ├── clip_module.py      # 3D-ResNet Video Encoder, BERT Text Encoder, Fusion MLP
 │   └── loss.py             # Combined Contrastive (CLIP) + CrossEntropy Loss
