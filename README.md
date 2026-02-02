@@ -155,6 +155,7 @@ If you use this code or dataset in your research, please cite our paper:
 }
 
 📧Contact
+
 For questions regarding the code or dataset, please contact:
+
 Zhihan Yan, MD: yanzhihanwz@163.com 
-Dinggang Shen, PhD: Dinggang.Shen@gmail.com 
