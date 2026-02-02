@@ -50,6 +50,7 @@ Plaintext
 
 
 🛠️Installation
+
 Prerequisites
 Python 3.8+
 CUDA-enabled GPU
